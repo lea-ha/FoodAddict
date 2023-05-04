@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817960636481",
+    "project_id": "recipesapp-e73a6",
+    "storage_bucket": "recipesapp-e73a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817960636481:android:f9c7a186a695deefafb6c0",
+        "android_client_info": {
+          "package_name": "com.leahaidamous.recipesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817960636481-idfh6hup8jmludchr5ja3h6mmrvl9fal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUu5qALhj98SuDhJVdlWn6A3pOV_ZFPD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817960636481-idfh6hup8jmludchr5ja3h6mmrvl9fal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

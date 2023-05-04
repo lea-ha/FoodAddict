@@ -1,0 +1,42 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/detailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This screen displays the details of the selected recipe, including the name, description, and ingredients. The details will be populated dynamically based on the ID of the selected recipe."
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+        <!-- Add views here to display the details of the selected item dynamically -->
+
+    </LinearLayout>
+
+</ScrollView>
